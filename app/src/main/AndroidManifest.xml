@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="xposedmodule" android:value="true" /><!--应用为模块-->
+        <meta-data android:name="xposeddescription" android:value="iAkie.com" /><!--模块描述-->
+        <meta-data android:name="xposedminversion" android:value="53" /> <!--版本信息-->
     </application>
 
 </manifest>
